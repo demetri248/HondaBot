@@ -1,0 +1,28 @@
+{
+  "name": "hondabot",
+  "version": "1.0.0",
+  "description": "\"This is a proof-of-concept experiment to develop a bot capable to answer simple questions about Honda cars.\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demetri248/HondaBot.git"
+  },
+  "keywords": [
+    "bot",
+    "luis",
+    "nlp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demetri248/HondaBot/issues"
+  },
+  "homepage": "https://github.com/demetri248/HondaBot#readme",
+  "dependencies": {
+    "botbuilder": "^3.1.1",
+    "restify": "^4.1.1"
+  }
+}
