@@ -10,10 +10,10 @@ server.listen(process.env.PORT || 3000, function()
 });
 
 // Create chat bot
-var appId = process.env.MY_APP_ID || "Missing your app ID";
-var appId = process.env.MY_APP_SECRET || "Missing your app Secret"; 
+var appId = '3e120bda-16f9-4fc5-90d9-f09f05f36360' || "Missing your app ID";
+var appPassword = 'i0hHRbgH7smaNTJLu1z8sAE' || "Missing your app Secret"; 
 
-var connector = new builder.ChatConnector({ appId: process.env.MY_APP_ID, appPassword: process.env.MY_APP_SECRET });
+var connector = new builder.ChatConnector({ appId: appId, appPassword: appPassword});
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
 
