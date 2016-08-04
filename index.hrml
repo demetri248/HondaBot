@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+   <head>
+      <title>MyAppID</title>
+   </head>
+   <body>
+   <iframe src="https://webchat.botframework.com/embed/hondabot?s=YOUR_SECRET_HERE" style="height: 502px; max-height: 502px;"></iframe>
+   </body>
+</html>
